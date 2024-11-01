@@ -3,13 +3,39 @@ body
     background-color: rgb(231, 229, 229); 
     font-family:Arial, Helvetica, sans-serif;
 }
-h1
+.h
 {
     background-color: gold;
     text-align: center;
 }
+#cl1
+{
+     background-color: lightblue;
+}
 h2
 {
-    background-color: gold;
     text-align: center;
+}
+.HTML
+{
+    text-decoration: underline dotted;
+    background-color: aqua;
+}
+.tegs
+{
+    color: brown
+}
+.code
+{
+    display: block; 
+    background-color: rgb(175, 175, 175); 
+    color: brown;
+}
+.text
+{
+    color: black;
+}
+.Tags
+{
+    color: rgb(59, 124, 124);
 }
