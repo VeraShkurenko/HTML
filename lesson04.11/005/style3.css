@@ -1,0 +1,53 @@
+body {
+    
+    background-color: hsl(0, 0%, 100%);
+}
+.header
+{
+    background-color: gold;
+    width: 1000px;
+    height: 200px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.facebook, .instagram, .twitter, .youtube {
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 35px;
+    outline: 2px solid black;
+    
+}
+
+.facebook {
+    background-color: blue;
+}
+
+.instagram {
+    background-color: pink;
+}
+
+.twitter {
+    background-color: cyan;
+}
+
+.youtube {
+    background-color: red;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
