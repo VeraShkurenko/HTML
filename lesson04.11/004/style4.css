@@ -1,0 +1,20 @@
+.header
+{
+    background-color: silver;
+    margin: -5px;
+}
+.main
+{
+    background-color: green;
+    padding: 4px;
+
+}
+.point
+{
+    padding: 4px;
+    color: blue;
+    text-decoration: underline
+}
+p{
+    padding-left: 10px;
+}

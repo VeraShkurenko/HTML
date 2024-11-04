@@ -1,0 +1,33 @@
+.message {
+
+    width: 500px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.success {
+    height: 40px;
+    background-color: lightgreen;
+   
+}
+
+.info {
+
+    height: 40px;
+    background-color: blue;
+    
+}
+
+.warning {
+    height: 40px;
+    background-color: gold;
+}
+
+.danger {
+    height: 40px;
+    background-color: red;
+}
+p{
+    padding: 10px;
+}

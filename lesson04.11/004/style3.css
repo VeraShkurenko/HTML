@@ -1,0 +1,38 @@
+.message {
+    width: 500px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.success {
+    height: 40px;
+    background-color: lightgreen;
+    border-left: 5px solid darkgreen;
+   
+}
+
+.info {
+
+    height: 40px;
+    background-color: rgb(0, 229, 255);
+    border-left: 5px solid rgb(0, 20, 100);
+   
+}
+
+.warning {
+    height: 40px;
+    background-color: rgb(251, 228, 96);
+    border-left: 5px solid rgb(156, 133, 0);
+
+}
+
+.danger {
+    height: 40px;
+    background-color: #ff5656;
+    border-left: 5px solid rgb(100, 0, 0);
+}
+p{
+    color: black;
+    padding: 10px;
+}

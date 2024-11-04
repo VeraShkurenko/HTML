@@ -1,0 +1,14 @@
+.header
+{
+    background-color: silver;
+}
+.point
+{
+    padding: 4px;
+    color: black;
+    border: 1px solid black;;
+    outline: 1px solid black;
+}
+p{
+    padding-left: 10px;
+}
