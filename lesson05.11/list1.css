@@ -1,0 +1,48 @@
+ol {
+    background-color: pink;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 220px ;
+    list-style-position: inside;
+    
+}
+
+
+
+.item1 {
+    background-color: palevioletred; 
+    margin-top: 10px;
+    padding: 5px;
+    color: aliceblue;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.item2, .item3, .item4 {
+    background-color: palevioletred; /* Основний фон для решти елементів */
+    margin-top: 10px;
+    padding: 5px;
+    color: aliceblue;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.item5 {
+    background-color: palevioletred; /* Темніший фон для останнього елемента */
+    margin-top: 10px;
+    padding: 5px;
+    color: aliceblue;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+span {
+    background-color: rgb(157, 54, 90); /* Темніший фон для останнього елемента */
+    padding: 6px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+
+}

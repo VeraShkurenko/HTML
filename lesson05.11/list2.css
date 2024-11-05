@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: silver;
+    padding: 20px;
+    margin: auto;
+}
+
+.header h2 {
+    font-weight: bold;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightblue;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#item2,#item5, #item11 {
+    background-color: aliceblue;
+
+}
+
+
+.list li .box {
+    margin-right: 10px;
+}
+
+
+.done {
+    text-decoration: line-through;
+    background-color: aliceblue;
+}
+.close #item2,#item5, #item11 {
+    background-color: aliceblue;
+}
+.close {
+    color: red;
+    margin-left: auto;
+    padding-left: 10px;
+}
+#item2 .close{
+    background-color: aliceblue;
+}
+#item5 .close{
+    background-color: aliceblue;
+}
+#item11 .close{
+    background-color: aliceblue;
+}
