@@ -1,0 +1,54 @@
+h1{
+    background-color: silver;
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}
+.Pfirst
+{
+    background-color: green;
+    font-style: italic;
+    font-size: 30px;
+}
+.Bfirst{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: silver;
+}
+.Bsecond{
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 60px;
+    border: none;
+    background-color: silver;
+}
+.Bthird{
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 0px;
+    border: none;
+    background-color: silver;
+ 
+}
+.Psecond
+{
+    background-color: skyblue;
+    font-weight: bold;
+    
+}
+.Pthird
+{
+  text-align: right;
+    background-color: palevioletred;
+    font-weight: bold;
+    
+}
+.Hsecond{
+    word-spacing: 20px;
+}
+.Hthird{
+    letter-spacing: 10px;
+}
