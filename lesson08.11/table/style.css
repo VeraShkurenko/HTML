@@ -1,0 +1,93 @@
+table
+{
+    background-color:rgb(227, 227, 227);
+    border-radius: 10px;
+    border-collapse:collapse;
+    overflow: hidden;
+    padding: 0px;
+
+}
+thead
+{ 
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+    
+}
+span
+{
+    font-size: larger;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+tbody{
+    color:black;
+}
+th{
+    text-align: center;
+}
+th, td{
+    padding: 10px;
+}
+td{
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+#choose
+{
+
+    background-color: navy;
+    opacity: 30%;
+   
+}
+#starter
+{
+    background-color: navy;
+    opacity: 50%;
+   
+}
+#econom
+{
+    background-color: navy;
+    opacity: 60%;
+}
+#standard
+{
+    background-color: navy;
+    opacity: 80%;
+}
+#prof
+{
+    background-color: navy;
+    opacity: 100%;
+}
+#point
+{
+    padding-left: 15px;
+    padding-right: 40px;
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+button{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: silver;
+    border: 0.5px solid gray;
+}
+#first, #third, #fifth, #seven{
+    color: black;
+    background-color: rgba(81, 80, 80, 0.584);
+}
+.starter 
+{
+    background-color: rgba(255, 255, 255, 0.302);
+}
+.standard 
+{
+    background-color: rgba(255, 255, 255, 0.302);
+}
