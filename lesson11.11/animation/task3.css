@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8d4;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    opacity: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.icon {
+    width: 70px;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideUp 2s forwards;
+}
+
+.icon1 {
+    width: 50px;
+
+    rotate:-35deg;
+    animation-delay: 0.5s;
+}
+
+.icon2 {
+    rotate:-5deg;
+    animation-delay: 1s;
+}
+
+.icon3 {
+    width: 60px;
+    rotate:35deg;
+    animation-delay: 1.5s;
+}
+
+.icon4 {
+    width: 40px;
+    rotate: 45deg;
+    animation-delay: 2s;
+}
+.icon5 {
+    width: 50px;
+    rotate: 90deg;
+        animation-delay: 2.5s;
+    }
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

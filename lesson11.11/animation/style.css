@@ -1,0 +1,50 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    animation: MyAnimation 5s infinite;
+}
+p{
+    display: none;
+}
+
+@keyframes MyAnimation{
+    0%{
+        background-color: antiquewhite;
+        width: 200px;
+    height: 200px;
+
+        border-radius: 0px;
+
+    }
+    25%{
+        background-color: palevioletred;
+        width: 300px;
+        height: 300px;
+        border-radius: 25px;
+
+    }
+    50%{
+        background-color: peru;
+        width: 400px;
+        height: 400px;
+        border-radius: 50px;
+
+
+    }
+    75%{
+        background-color: lightskyblue;
+        width: 500px;
+        height: 500px;
+        border-radius: 75px;
+
+    }
+    100%{
+        background-color: lightgreen;
+        width: 600px;
+        height: 600px;
+        border-radius: 150px;
+
+
+    }
+}

@@ -1,0 +1,21 @@
+.heart1, .heart2 {  
+    position: absolute;  
+    width: 200px;  
+    height: 200px;  
+    transition: opacity 1s ease-in-out; 
+  }  
+
+  .heart1 {  
+    opacity: 0; 
+  } 
+
+  .heart2 {  
+    opacity: 1; 
+  } 
+
+  body:hover .heart1 { 
+    opacity: 1; 
+  } 
+  body:hover .heart2 { 
+    opacity: 0; 
+  }
