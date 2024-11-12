@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 1%;
+
+border: 1px solid navy;
+width: 100%;
+
+}
+
+.main{
+margin: 1% 25% ;
+border: 1px solid navy;
+    width: 50%;
+    height: 100px;
+
+}
+
+.footer{
+    margin: 1%;
+
+    clear: left;
+    border: 1px solid navy;
+width: 100%;
+}
