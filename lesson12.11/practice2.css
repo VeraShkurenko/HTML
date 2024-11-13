@@ -18,7 +18,7 @@
     width: 25%;
     height: 100px;
     border: 1px solid navy;
-    float: left;
+   
 
 }
 
@@ -29,8 +29,7 @@
     width: 70%;
     height: 100px;
     border: 1px solid navy;
-    float: right;
-
+   
 }
 
 .footer {
