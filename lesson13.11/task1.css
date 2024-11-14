@@ -1,53 +1,104 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+    font-family: sans-serif;
+    text-transform: uppercase;
 
-html, body, div {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+    overflow: auto;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
     height: 100%;
+    background-color: #939292;
+    transition: width 0.5s;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar:hover {
+    width: 200px;
+  }
+  
+  .menu-title {
+    color: #fff;
+    padding: 20% 0;
+    font-size: 1em;
+    text-align: center;
+    border-bottom: 1px solid #c0bebe;
+    width: 100%;
+  }
 
-}
+  
+  .menu-items {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .menu-item {
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+  }
+  
+  .text {
+    margin-left: 10px;
+    display: none;
+  }
+  
+  .sidebar:hover .text {
+    display: inline;
+  }
+  
+  .menu-item:hover {
+    background-color: #555;
+  }
 
-body{
-     font-family: Verdana, Arial, sans-serif;
-    background-color: #f7f7f7;
-    display:inline-block ;
+  .content{
+    margin-left: 120px;
+    margin-right: 60px;
     overflow: scroll;
-}
+  }
+  
+  .main {
+    padding: 20px;
+    height: 100%;
+  }
+  
 
-#sideNav{
-    background-color: silver;
-   height: 100%;
-width: 10%;
-float: left;
-position: fixed;
-}
-
-
-#main{
-    padding: 5%;
-height: 100%;
-width: 70%;
-margin-left: 10%;
-
-}
-#nav li {
-    float: left;
-    list-style: none;
-}
-
-#nav a:hover {
-width: 30%;
-    
-}
-
-#nav:after {
-    content: " ";
-    display: block;
-    clear: both;
-}
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
