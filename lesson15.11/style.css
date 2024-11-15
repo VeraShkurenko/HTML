@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+.navbar .new span {
+    color: red;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.aside {
+    background-color: #f0f0f0;
+    padding: 15px;
+    flex: 1;
+}
+
+main {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.girls, .boys {
+    display: flex;
+    gap: 10px;
+}
+
+.girls .big-banner,
+.boys .big-banner {
+    flex: 2;
+}
+
+.girls .small-banner,
+.boys .small-banner {
+    flex: 1;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.big-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.small-banner img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
