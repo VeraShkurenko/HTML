@@ -1,0 +1,41 @@
+body{
+background-color: aliceblue;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding: 0;
+margin: 0;
+gap:0;
+display: flex;
+justify-content: center;
+
+}
+form{
+    border: 1px silver solid;
+
+}
+p{
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px silver solid;
+    padding: 10px;
+
+}
+div{
+    
+    gap: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input{
+    border-top: 1px silver solid;
+}
+#submit{
+    border: 1px silver solid;
+
+    grid-column: span 2;
+    justify-self: center;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: silver;
+}
