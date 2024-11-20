@@ -1,0 +1,40 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.form-group{
+    gap: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+p{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    background-color: navy;
+    color: white;
+}
+.form{
+    width: 400px;
+    background-color: rgb(208, 230, 239);
+}
+form{
+    display: grid;
+}
+input[type="submit"]{
+    border: 1px silver solid;
+    cursor: pointer;
+    width: 60px;
+    justify-self: center;
+}
+input[type="submit"]:hover{
+    background-color: silver;
+}
+input:invalid{
+    background-color: indianred;
+}
