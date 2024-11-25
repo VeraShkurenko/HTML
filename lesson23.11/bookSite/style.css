@@ -35,6 +35,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1rem;
 }
 
 .promo h2 {
@@ -56,4 +57,67 @@ main {
 footer {
     text-align: center;
     font-size: 1em;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .promo h2 {
+        font-size: 1.8em;
+    }
+
+    .promo p {
+        font-size: 1em;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .ad-banner h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        font-size: 1.2em;
+    }
+
+    .promo h2 {
+        font-size: 1.5em;
+    }
+
+    .promo p {
+        font-size: 0.9em;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .ad-banner h3 {
+        font-size: 1em;
+    }
 }
