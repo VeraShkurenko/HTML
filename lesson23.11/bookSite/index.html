@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="wrapper d-flex flex-column min-vh-100">
         <header class="bg-light shadow-sm">
@@ -15,9 +17,11 @@
             </div>
             <div class="container d-flex justify-content-between align-items-center py-3">
                 <h1 class="logo text-dark m-0">Scriptorium</h1>
-                
+
                 <nav class="navbar navbar-expand-md">
-                    <button class="navbar-toggler btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler btn btn-outline-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         ☰
                     </button>
                     <div class="collapse navbar-collapse" id="main-menu">
@@ -38,7 +42,15 @@
             </div>
         </header>
 
-        <main class="flex-grow-1 d-flex flex-column justify-content-between">
+        <nav class="container py-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Головна</a></li>
+                <li class="breadcrumb-item"><a href="#">Каталог</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Книги</li>
+            </ol>
+        </nav>
+
+        <main class="flex-grow-1 d-flex flex-column justify-content-between overflow-auto">
             <section class="promo text-center bg-light py-5 flex-grow-1 d-flex flex-column justify-content-center">
                 <div class="container">
                     <h2 class="mb-3">Ласкаво просимо до Scriptorium</h2>
@@ -46,7 +58,7 @@
                     <a href="#" class="btn btn-dark">Переглянути каталог</a>
                 </div>
             </section>
-            
+
             <section class="ad-banner bg-dark text-white py-4">
                 <div class="container text-center">
                     <h3 class="m-0">Чорна п’ятниця: Знижки до 70%!</h3>
@@ -62,4 +74,5 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
