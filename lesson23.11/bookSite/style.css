@@ -31,6 +31,7 @@ a:hover {
 }
 
 header {
+    border-bottom: #111 solid 0.8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.8s ease-out;
 }
@@ -214,6 +215,40 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 
+.links-in-head {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    color: #757575;
+	text-decoration: none;
+}
+.enter-in-account a:hover{
+    color: red;
+}
+.logpopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0,0,0,0.5);
+    z-index: 300;	
+	cursor:pointer;
+	justify-content: center;
+	align-items: center;
+}
+.logpopup .logpopupblock, .log_nopopup .logpopupblock {
+	width: 500px;
+	box-sizing: border-box;
+	position: relative;
+	padding: 50px 0 50px 0;
+	border-radius: 10px;
+	background: #ffffff;
+	cursor: default;
+	z-index: 500;	
+}
 
 @media (max-width: 768px) {
     header .search {
